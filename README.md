@@ -4,7 +4,9 @@ See the [Base16 repository](https://github.com/chriskempson/base16) for more inf
 
 This template maps Base16 colors in a way to preserve the original intent of mIRC and HexChat colors, whose color palettes contain colors not identically representable with Base16.
 
-## Installation
+## Usage
+
+### Manual
 
 Copy your chosen theme from the [colors](colors) directory, and replace the `colors.conf` in your HexChat configuration directory:
 
@@ -13,6 +15,28 @@ Copy your chosen theme from the [colors](colors) directory, and replace the `col
 *    Unix: `~/.config/hexchat`
 *    Flatpak: `~/.var/app/io.github.Hexchat/config/hexchat`
 *    Snap: `~/snap/hexchat/current/.config/hexchat`
+
+### Script (unix systems only)
+
+Switch themes using the theme switcher script. It accepts a single argument which is the kebab-case name of the theme. For example:
+
+```shell
+./bin/base16-hexchat-theme gruvbox-dark-medium
+```
+
+#### Run from anywhere
+
+Add the following to your shell `*rc` file and make sure the path to where you cloned base16-hexchat is correct:
+
+```shell
+export PATH=/your/path/to/base16-hexchat/bin:$PATH
+```
+
+Open a new terminal window or source your shell file and now you can switch the theme easily from anywhere.
+
+```shell
+base16-hex-theme gruvbox-dark-medium
+```
 
 ## Documentation of `colors.conf` format
 
