@@ -1,6 +1,6 @@
 # Base16 for HexChat (and XChat)
 
-See the [Base16 repository](https://github.com/chriskempson/base16) for more information, and was built with [base16-builder-python](https://github.com/InspectorMustache/base16-builder-python).
+See the [Base16 repository](https://github.com/base16-project/base16) for more information, and was built with [base16-builder-python](https://github.com/InspectorMustache/base16-builder-python).
 
 This template maps Base16 colors in a way to preserve the original intent of mIRC and HexChat colors, whose color palettes contain colors not identically representable with Base16.
 
